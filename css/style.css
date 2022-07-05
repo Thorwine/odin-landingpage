@@ -25,12 +25,15 @@ button {
   padding: 5px 20px;
 }
 
-/* navbar */
+button:hover {
+  cursor: pointer;
+}
+
+/* Styling Navbar */
 
 .navbar {
   background-color: #1f2937;
   color: #e5e7eb;
-
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
@@ -47,13 +50,12 @@ button {
   color: #e5e7eb;
 }
 
-/* header */
+/* Styling Header */
 
 .header {
   background-color: #103145F2;
   color: white;
   padding: 50px;
-
   display: flex;
   justify-content: center;
   flex-wrap: wrap-reverse;
@@ -84,14 +86,13 @@ button {
   justify-content: center;
 }
 
-/* contact */
+/* Styling Contact */
 
 .contact {
   background-color: #1F3E52;
   color: #f9faf8;
   padding-block: 50px;
   text-align: center;
-
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -113,38 +114,49 @@ button {
   margin-bottom: 12px;
 }
 
-/* quote */
+/* Styling Quote */
 
 .quote {
-  background-color: #BAE4F2;
-  padding: 50px;
+  background-image: url("../images/galaxy.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.5;
 
+  padding: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 12px;
+
+  transition-property: opacity;
+  transition-duration: 1s;
+}
+
+.quote:hover {
+  opacity: 1;
 }
 
 .quote .text {
-  margin: 0;
-  color: #1f2937;
   font-size: 26px;
   font-style: italic;
-
   max-width: 900px;
 }
 
 .quote .author {
   font-weight: bold;
-  margin: 0;
 }
 
-/* action */
+.quote .text,
+.author {
+  margin: 0;
+  color: white;
+}
+
+/* Styling Action */
 
 .action {
   background-color: #1F3E52;
   padding: 50px;
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -158,9 +170,7 @@ button {
   background-color: #59A6D3;
   border-radius: 8px;
   color: white;
-
   padding: 20px 50px;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -179,12 +189,11 @@ button {
   font-size: 10px;
 }
 
-/* footer */
+/* Styling Footer */
 
 .footer {
   background-color: #1f2937;
   color: #e5e7eb;
-
   display: flex;
   justify-content: center;
   align-items: center;
