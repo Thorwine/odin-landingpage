@@ -26,6 +26,10 @@ button {
 }
 
 button:hover {
+  background-color: #bb6624;
+}
+
+button:hover {
   cursor: pointer;
 }
 
@@ -50,6 +54,10 @@ button:hover {
   color: #e5e7eb;
 }
 
+.navbar a:hover {
+  color: #bb6624;
+}
+
 /* Styling Header */
 
 .header {
@@ -64,6 +72,10 @@ button:hover {
 
 .header img {
   width: 200px;
+}
+
+.header img:hover {
+  transform: scale(1.05);
 }
 
 .header .header-left {
@@ -112,6 +124,11 @@ button:hover {
   width: auto;
   color: #e5e7eb;
   margin-bottom: 12px;
+}
+
+.contact img:hover {
+  transform: scale(1.1);
+  color: #bb6624;
 }
 
 /* Styling Quote */
