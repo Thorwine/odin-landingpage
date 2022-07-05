@@ -17,7 +17,7 @@ body {
 }
 
 button {
-  background-color: #59A6D3;
+  background-color: #24566f;
   color: #f9faf8;
   font-weight: bold;
   border: none;
@@ -104,7 +104,7 @@ button:hover {
 
 .contact {
   background-color: #1F3E52;
-  color: #f9faf8;
+  color: #e5e7eb;
   padding-block: 50px;
   text-align: center;
   display: flex;
@@ -138,7 +138,7 @@ button:hover {
 /* Styling Quote */
 
 .quote {
-  background-image: url("../images/galaxy.png");
+  background-image: url("../images/space.png");
   background-size: cover;
   background-repeat: no-repeat;
   opacity: 0.5;
@@ -188,9 +188,9 @@ button:hover {
 }
 
 .action .call {
-  background-color: #59A6D3;
+  background-color: #71a4b5;
   border-radius: 8px;
-  color: white;
+  color: rgb(41, 39, 39);
   padding: 20px 50px;
   display: flex;
   justify-content: space-between;
@@ -203,11 +203,12 @@ button:hover {
 }
 
 .action .call .title {
+  font-size: 20px;
   font-weight: bold;
 }
 
 .action .call .subtitle {
-  font-size: 10px;
+  font-size: 14px;
 }
 
 /* Styling Footer */
