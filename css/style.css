@@ -72,6 +72,8 @@ button:hover {
 
 .header img {
   width: 200px;
+  border-radius: 50%;
+  box-shadow: 2px 5px 20px black;
 }
 
 .header img:hover {
@@ -115,7 +117,7 @@ button:hover {
 .contact .icons {
   display: flex;
   justify-content: center;
-  gap: 50px;
+  gap: 60px;
   flex-wrap: wrap;
 }
 
@@ -124,6 +126,8 @@ button:hover {
   width: auto;
   color: #e5e7eb;
   margin-bottom: 12px;
+  border-radius: 50%;
+  box-shadow: 2px 5px 20px black;
 }
 
 .contact img:hover {
